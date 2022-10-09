@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "some-rules": "severity",
+    "other-rule": ["severity", { "option": true }]
+  }
+}
+Severity can be one of:
+
+"error" (or 2) to report an error.
+"warn" (or 1) to report a warning.
+"off" (or 0) to disable the rule.
